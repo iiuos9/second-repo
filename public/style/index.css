@@ -1,0 +1,434 @@
+/* google fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800;900&amp;display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+#hero {
+    background-image: linear-gradient(to bottom, #000000 10%, #0c0e29 100%);
+    /* background-color: #0150b8; */
+    padding-top: 1.7rem;
+    padding-bottom: 2.5rem;
+}
+.hero-content {
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+.hero-content h1 {
+    font-weight: 800;
+    margin-top: 1.2rem;
+    width: 100%;
+}
+.hero-content h4 {
+    width: 100%;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    position: relative;
+    line-height: 2rem;
+    font-size: 13px;
+    margin-top: 1.2rem;
+    position: relative;
+}
+.beta {
+    color: #3182ce !important;
+    font-size: 13px;
+    position: absolute;
+    top: 2.2rem;
+    right: 3.4rem;
+}
+.hero-content h6 {
+    width: 100%;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    position: relative;
+    line-height: 2rem;
+    font-size: 13px;
+}
+.hero-content a .butt-1 {
+    border-radius: 7px; 
+    /* background-color: #3182ce;  */
+    color: #fff; 
+
+    background-color: #1a1c34;
+    box-shadow: 0px 0px 2px black;
+    border-left: 4px solid #3182ce;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+
+    /* border: none; */
+    font-weight: 500;
+    font-size: 17px;
+    padding-top: .5rem; 
+    padding-bottom: .5rem; 
+    padding-right: 1rem; 
+    padding-left: 1rem; 
+    letter-spacing: .5px;
+    margin-top: 1.5rem;
+    -webkit-transition: 500ms linear;
+    transition: 500ms linear;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+.hero-content a .butt-2 {
+    border-radius: 7px; 
+    /* background-color: inherit;  */
+    color: #fff; 
+
+    background-color: #1a1c34;
+    box-shadow: 0px 0px 2px black;
+    border-left: 4px solid #3182ce;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+
+    /* border: 2px solid #3182ce; */
+    font-weight: 500;
+    font-size: 17px;
+    padding-top: .5rem; 
+    padding-bottom: .5rem; 
+    padding-right: 1rem; 
+    padding-left: 1rem; 
+    letter-spacing: .5px;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    -webkit-transition: 500ms linear;
+    transition: 500ms linear;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+.hero-icon {
+    text-align: center;
+    width: 100%;
+    font-size: 13px;
+    margin-top: 1.8rem;
+    margin-left: .6rem;
+}
+.hero-content img {
+    margin-top: 3.5rem !important;
+    width: 80%;
+    height: 80%;
+}
+#services {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #0c0e29;
+}
+.heading-text {
+    font-weight: 800;
+    color: #3182ce;
+    font-size: 15px;
+    margin-top: 1rem;
+    margin-bottom: 1.4rem !important;
+}
+.sub-heading-text {
+    color: #fff;
+    font-size: 13px;
+    line-height: 2rem;
+    margin-bottom: 2rem !important;
+}
+.service-card {
+    position: relative;
+    width: 100%;
+    background-color: #1a1c34;
+    box-shadow: 0px 0px 2px black;
+    border-left: 7px solid #3182ce;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 1.7rem !important;
+    -webkit-transition: 500ms linear;
+    transition: 500ms linear;
+}
+.service-card h2 {
+    color: #fff;
+    /* font-weight: 500; */
+    font-size: 13px;
+    text-decoration: none !important;
+    margin-top: 1rem;
+}
+#feedback {
+    background-color: #0c0e29;
+    padding-top: 2.2rem;
+    padding-bottom: 1.7rem;
+    margin-top: 0px !important;
+}
+.feedback-heading-text {
+    font-weight: 800;
+    color: #3182ce;
+    font-size: 15px;
+    /* margin-top: 1rem; */
+    margin-bottom: 1.9rem !important;
+    text-align: center;
+}
+#extra {
+    background: url("");
+    background-size: cover;
+    background-color: #0c0e29;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-top: -2rem !important;
+}
+.extra-box h4 {
+    font-size: 13px;
+    font-weight: 500;
+}
+.extra-btn {
+    border: none;
+    border-radius: 4px;
+    background-color: #0150b8 !important;
+    color: #fff !important;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 8px 20px 8px 20px !important;
+    margin-top: 5px;
+}
+footer {
+    background-color: #0c0e29;
+    color: #fff;
+}
+.footer-text h6 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .hero-content h4 {
+        font-size: 13px;
+    }
+    .hero-content h6 {
+        font-size: 13px;
+    }
+    .service-card {
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+    }
+    .service-card h2 {
+        font-size: 13px;
+    }
+    .hero-content a .butt-1,
+    .hero-content a .butt-2 {
+        font-weight: 400 !important;
+        font-size: 13px;
+        padding-top: .5rem; 
+        padding-bottom: .5rem; 
+        padding-right: 1rem; 
+        padding-left: 1rem; 
+    } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.hero-btn a .butt-1:hover {
+    transform: scale(1.1);
+}
+.hero-btn a .butt-2:hover {
+    transform: scale(1.1);
+}
+
+
+
+.service-card {
+    animation-delay: 1.5s;
+}
+.service-card:hover {
+    
+}
+.service-card h6 {
+    font-weight: 500;
+    line-height: 25px;
+    text-shadow: 0px 0px 1px black;
+    text-decoration: none;
+}
+.service-card i {
+    margin-bottom: 10px;
+    text-shadow: 0px 0px 1px black;
+}
+.service-card .redirect {
+    position: absolute;
+    top: 1px;
+    right: 4px;
+    font-size: 10px;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback-box h1 {
+    color: #fff;
+    font-weight: 800;
+    /* text-shadow: 0px 0px .1px black; */
+}
+.feedback-box h6 {
+    color: #fff;
+    font-weight: 400;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .hero-btn {
+        width: 83%;
+    }
+    .hero-content h1 {
+        line-height: 2.4rem !important;
+        margin-top: .5rem !important;
+    }
+ 
+    .service-card i {
+        margin-bottom: 13px;
+        margin-top: 5px;
+    }
+    
+    .service-card h6 {
+        font-size: 13px;
+    }
+    #feedback {
+        margin-bottom: 15px;
+        margin-top: 8px;
+        padding-top: 1.8rem !important;
+        padding-bottom: 2.3rem;
+    }
+    .box {
+        width: 90%;
+    }
+    #extra {
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
+    }
+    .extra-btn {
+        border: none;
+        background-color: #fff;
+        color: #0150b8;
+        font-size: 13px;
+        font-weight: 500;
+        padding: 1px 17px 1px 13px;
+    }
+    .feedback-box h1 {
+        margin-left: 3.5rem;
+        font-size: 15px;
+    }
+    .feedback-box h6 {
+        margin-top: -5px;
+        font-size: 12px;
+        margin-left: 2rem;
+    }
+    Footer {
+        color: #0150b8;
+    }
+}
+@media screen and (max-width: 768px) {
+    .service-card:hover {
+    }
+}
+@media screen and (min-width: 768px) { 
+    #services {
+        padding-bottom: 3rem;
+    }
+    .service-card {
+       margin-right: 10px;
+       height: 12rem;
+       margin-bottom: 30px;
+    }
+    .feedback-box h1 {
+        margin-left: 10.5rem;
+        font-size: 25px;
+    }
+    .feedback-box h6 {
+        margin-left: 8.8rem;
+    }
+    .service-card .redirect {
+        top: 7px !important;
+        right: 5px !important;
+    }
+    #feedback {
+        margin-bottom: 2rem;
+        margin-top: .5rem;
+    }
+    .heading-text {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    #extra {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 407px) {
+    .feedback-box h1 {
+        font-size: 15px;
+    }
+    .feedback-box h6 {
+        font-size: 12px;
+        margin-left: 1.9rem;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .box {
+        width: 95%;
+    }
+    .feedback-box h1 {
+        font-size: 15px;
+        margin-left: 2.8rem;
+    }
+    .feedback-box h6 {
+        margin-left: 1.4rem;
+    }
+}
+@media screen and (max-width: 395px) {
+    .hero-btn {
+        width: 90%;
+    }
+    .hero-btn a .butt-1,
+    .hero-btn a .butt-2 {
+        font-size: 15px;
+    }
+}
